@@ -389,7 +389,7 @@ h1{
 
 .scrollable {
   position: relative;
-  height: 275px; /* or any value */
+  height: 265px; /* or any value */
   overflow-y: auto;
   width: 100%;
   background-color: #151515;
@@ -430,14 +430,14 @@ h1{
 
 .scrollable {
   position: relative;
-  height: 400px; /* or any value */
+  height: 50vh;  
   overflow-y: auto;
   width: 100%;
   background-color: #151515;
   scroll-behavior: smooth;
   overflow-y: scroll;
-  scrollbar-width: none; /* For Firefox */
-  -ms-overflow-style: none; /* For Internet Explorer and Edge */
+  scrollbar-width: none; 
+  -ms-overflow-style: none; 
 }
 
 }
@@ -667,13 +667,14 @@ h1{
 @media (max-width: 768px) {
 .resume-button {
   position: relative;
-  left:20%;
+  left:16%;
   width: 170px;
   height: 73px;
 }
 }
 
 .parent {
+position: relative;
 width: 100%;
 display: flex;
 justify-content: center;
